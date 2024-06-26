@@ -1,6 +1,10 @@
 body {
     background-color: #0c0534;
 }
+.cont{
+    display: flex;
+    justify-content: center;
+}
  
 img {
     width: 15%;

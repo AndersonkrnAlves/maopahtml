@@ -1,7 +1,11 @@
-function ocultarForm() {
-    $(document).ready(function(){
-        $("button").ready(function(){
-          $("form.caixa").hide();
-        });
-      });    
-}
+//function ocultarForm() {
+ /* $(document).ready(function(){
+    $("entrar").click(function(){
+      $("container").hide();
+    });
+  });*/
+//}
+<script>$("entrar").click(function(){
+  $("div.container").toggle();
+});
+</script>
