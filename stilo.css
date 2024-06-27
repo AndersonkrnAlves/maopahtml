@@ -1,6 +1,7 @@
 body {
     background-color: #161414;
 }
+
 .cont{
     display: flex;
     justify-content: center;
@@ -9,16 +10,19 @@ body {
 img {
     width: 15%;   
 }
+
 .bot {
     display: flex;
     justify-content: center;
     margin: 20px 0;
     font-family: 'Times New Roman', Times, serif;
 }
+
 .cont {
     display: flex;
     justify-content: center;
 }
+
 .container {
     color:white;
     display: flex;
@@ -26,6 +30,7 @@ img {
     margin: 5px 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .caixa {
     color: white;
     display: flex;
@@ -33,6 +38,7 @@ img {
     margin: 5px 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 button {
     color: black;
     background-color: rgba(1, 255, 136, 0.699);
@@ -50,12 +56,14 @@ button:hover{
     background-color: rgb(255, 255, 255);
     color:black
 }
+
 input {
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
     margin: 3px;
     display: flex;   
 }
+
 .none {
     display: none;
 }
