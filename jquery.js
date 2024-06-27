@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function () {
   $("#btn_cadastro").click(function () {
     //alert("vc clicou");
@@ -22,3 +23,16 @@ $(document).ready(function () {
 });
 
 
+=======
+//function ocultarForm() {
+ /* $(document).ready(function(){
+    $("entrar").click(function(){
+      $("container").hide();
+    });
+  });*/
+//}
+<script>$("entrar").click(function(){
+  $("div.container").toggle();
+});
+</script>
+>>>>>>> 96fd8083ea63bb0be7bed277c5d8c247ad1098a0
