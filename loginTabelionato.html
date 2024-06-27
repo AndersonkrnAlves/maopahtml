@@ -3,13 +3,13 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Login cartorio</title>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Login/Cadastro cartorio</title>
 </head>
     
 <link rel="stylesheet" href="stilo.css">
+
 <body>
+
     <div class="cont">
         <img src="./imagens/brasao-do-brasil.png"><br/>
     </div>
@@ -21,22 +21,22 @@
 
     <div id=div1 class="container none">
         
-        <form>
+        <form id="formulariocadastro">
  
             <label for="nome">Nome Completo :</label>  
-            <input type="text" name="nome"> <br/>
+            <input id="cmp1" type="text" name="nome"> <br/>
             <span id="erroNomecompleto"></span>
 
             <label for="cep">CEP :</label>  
-            <input type="text" name="CEP"><br/>
+            <input id="cmp2" type="text" name="CEP"><br/>
             <alert id="erroCEP"></alert>
 
             <label for="nome" >Email :</label>  
-            <input type="text" name="Email"><br/>
+            <input id="cmp3" type="text" name="Email"><br/>
             <alert id="erroEmail"></alert>
 
             <label for="nome">Senha:</label>  
-            <input type="password" name="Senha"> <br/>
+            <input id="cmp4" type="password" name="Senha"> <br/>
             <alert id="erroSenha"></alert>
 
             <button type="submit">Cadastrar</button><br/>
@@ -59,8 +59,8 @@
 
         </form>
     </div>
+    
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src='jquery.js'></script>
-    
 </body>
 </html>

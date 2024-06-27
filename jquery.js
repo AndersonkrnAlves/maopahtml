@@ -19,6 +19,12 @@ $(document).ready(function () {
     }
     //alert("cliquei e esta funcionando");
   });
+  $("#formulariocadastro").submit(function(event){
+    event.preventDefault();
+    if ($("#cmp1").val() && $("#cmp2").val() && $("#cmp3").val() && $("#cmp4").val()) {
+      alert("cadastro realizado com sucesso");
+    } else {
+      alert("preencha todos os campos");
+    }
+  });
 });
-
-

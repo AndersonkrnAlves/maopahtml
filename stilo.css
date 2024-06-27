@@ -1,5 +1,5 @@
 body {
-    background-color: #080808;
+    background-color: #161414;
 }
 .cont{
     display: flex;
@@ -24,21 +24,31 @@ img {
     display: flex;
     justify-content: center;
     margin: 5px 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .caixa {
     color: white;
     display: flex;
     justify-content: center;
     margin: 5px 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 button {
-    color: white;
-    background-color: #120264;
+    color: black;
+    background-color: rgba(1, 255, 136, 0.699);
     margin: 15px;
+    padding: 10px 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px; 
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color:black
 }
 input {
     font-style: normal;
