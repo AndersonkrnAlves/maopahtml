@@ -1,26 +1,38 @@
 body {
-    background-color: #0c0534;
+    background-color: #080808;
 }
  
 img {
-    width: 15%;
-   
+    width: 15%;   
+}
+.bot {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cont {
+    display: flex;
+    justify-content: center;
 }
 .container {
+    color:white;
     display: flex;
     justify-content: center;
     margin: 50px 0;
     font-family: 'Times New Roman', Times, serif;
 }
 .caixa {
-    display: none;
+    color: white;
+    display: flex;
     justify-content: center;
     margin: 5px 0;
     font-family: 'Times New Roman', Times, serif;
 }
 button {
-    background-color: #00fc47;
-    margin: 15px 0;
+    color: white;
+    background-color: #120264;
+    margin: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     
@@ -29,6 +41,8 @@ input {
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
     margin: 3px;
-    display: flex;
-    
+    display: flex;   
+}
+.none {
+    display: none;
 }
