@@ -6,7 +6,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
     <script>
-        $(document).click(function (){
+        $(document).ready(function (){
             $("#barra").click(function(){
                 $("#painel").slideToggle("slow");
             });
@@ -77,14 +77,15 @@
             margin: 5px;
             padding: 5px;
             width: 31.5%;
-           
             border: 0px;
         }
         .caixa2 {
             float: left;
             width: 16.66%;
+            max-height: fit-content;
             border: 0px;
             font-size: 14px;
+            background-position: 5% 0;
         }
     </style>
 </head>
