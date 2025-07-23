@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    color: rgb(10, 25, 235);
+    font-size: 60px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-shadow: 5px 5px 5px red;/* a sombra no texto*/
+}
+
+p {
+    color: blueviolet;
+    font-size: 30px;/* tamanho da fonte*/
+    font-weight: 100;/* Letra fica fina ou grossa*/
+    font-family: 'Roboto' sans-serif;/* formato da font*/
+    font-style: italic;/* estilo da fonte*/
+    line-height: 50px;/* espaco entre as linhas */
+    letter-spacing: 10px;/* espaço entere as letras*/
+    word-spacing: 40px;/*espaco entre palavras*/
+    text-align: justify;/* alinhado o texto*/
+    text-transform: capitalize;/* letras todas maiscula ou minuscula*/
+    text-decoration: underline;/* texto sublinhado*/
+
+}

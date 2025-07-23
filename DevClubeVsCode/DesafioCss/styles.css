@@ -1,0 +1,148 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    margin: 47px 0 163px 42px;
+}
+
+.link-header {
+
+    margin: 32px;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 14px;
+    color: #17233D;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-header {
+
+    color: #FFF;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    cursor: pointer;
+}
+
+.logo-image {
+
+    width: 534px;
+    height: 467px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+
+}
+
+h2 {
+
+    width: 582px;
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    margin: 64.80px 57px 47px 84.98px;
+}
+
+p {
+
+    width: 493px;
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin: 47px 146px 55px 96.83px;
+}
+
+.link-section {
+
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-left: 96.83px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        width: 91px;
+        height: 31px;
+        border-radius: 6px;
+        border: 1px solid #4CB538;
+        background: #6FBF44;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        position: relative;
+        right: 20px;
+        left: 470px;
+    }
+
+    h2 {
+
+
+        width: 278px;
+        font-size: 30px;
+        letter-spacing: 0.596px;
+        text-align: center;
+        line-height: 30px;
+        margin-left: 170px;
+        bottom: 30px;
+
+    }
+
+    p {
+
+        width: 304px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        margin-left: 160px;
+    }
+
+    .link-section {
+       
+        
+        display: block;
+        margin-left: 65%;
+        
+    }
+    .logo-image {
+
+        width: 312px;
+        height: 288px;
+        position: absolute;
+        top: 600px;
+    }
+
+    section {
+
+        display: block;
+    }
+}

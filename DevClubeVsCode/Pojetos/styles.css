@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000;
+}
+
+header {
+
+    margin: 50px 0 50px 50px;
+}
+
+.link-caixa {
+
+    margin: 30px 30px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+section {
+
+    margin-left: 33%;
+}

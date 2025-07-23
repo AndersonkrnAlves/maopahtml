@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--FORMS
+        -capturar dados de entrada
+        -input-> Entrada
+        
+        Action-> define para qual url será enviado os dados, vazio evnia para mesma url
+        Method
+            -GET -> envia pela url
+            -POST -> envia pelo baixo dos panos, mais seguro para dados.
+
+    
+    -->
+    <form action="" method="get" enctype="multipart/form-data">
+
+        <h2>Digite seu Endereço</h2>
+        <label>
+            Rua:
+            <input type="text" name="rua" autocomplete="street-address" />
+        </label>
+
+        <label>
+
+            Número:
+            <input type="number" name="numero" />
+        </label>
+
+        <label>
+
+            Email:
+            <input type="email" name="email" />
+        </label>
+
+        <label>
+
+            Foto:
+            <input type="file" name="arquivo" />
+
+        </label>
+
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+
+    </form>
+
+
+</body>
+
+</html>
