@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Bueno Aires</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#barra").click(function () {
+                $("#painel").slideToggle("slow");
+            });
+        });
+    </script>
+
+    <style>
+        #painel, #barra {
+            padding: 5px;
+            text-align: center;
+            background-color: #1e90ff;
+            border: solid 0px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        #painel {
+            padding: 20px;
+            display: none;
+            font-size: 14px;
+        }
+        body {
+            background-color: white;
+        }
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+            color: #000080;
+        }
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: #000080;
+        }
+        a:link{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+            color: gray;
+        }
+        a:visited {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+            color: gray;
+        }
+        a:hover {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+            color: lightblue;
+        }
+        a:active {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+            color: blue;
+        }
+        .caixa {
+            float: left;
+            margin: 5px;
+            padding: 15px;
+            width: 29.5%;
+            border: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu"><nav> |
+        <a href="index.html">HOME</a> | 
+        <a href="https://pt.wikipedia.org" target="_blank">WIKIPEDIA</a>
+        <a href="https://www.unicesumar.edu.br/" target="_blank">UNICESUMAR</a>
+    </nav></div>
+    <svg width="100%" height="100">
+        <rect width="100%" height="100" style="fill: rgb(0, 0, 100);" />
+        <text fill="#ffffff" font-size="30" font-family="Times New Roman" 
+        x="50" y="40">BUENOS AIRES - ARGENTINA</text>
+    <text fill="#ffffff" font-size="20" font-family="Times New Roman" x="50"
+    y="80">Cerca de 3 Milhões de Habitantes em Seu Entorno</text>
+    </svg>
+    <div id="barra"><strong>História da Atual Capital da Argentina</strong></div>
+    <div id="painel">Pedro de Mendoza fundou a cidade em 1.536 chamando-
+        a de Nuestra Señora del Buen Ayre. <br />
+        Foi arrasada por índios, e em 1.580 refundada por Juan de Garay
+        com o nome de Ciudad de la Santísima Trinidad y Puerto de Nuestra
+        Señora del Buen Ayre. <br />
+        Foi arrasada por índios, e em 1.580 refundada por Juan de Garay
+        com o nome de Ciudad de la Santísima Trinidad y Puerto de Nuestra
+        Señora del Buen Ayre.
+    </div>
+
+    <div style="background-color: #87ceeb; color: black; padding: 20px;">
+        <h2>Buenos Aires</h2>
+        <p>A cidade conta com o Aeroporto Internacional de Ezeiza (situado a
+            35 quilômetros da cidade) e com um aeroporto doméstico, o Aeroparque
+            Jorge Newbery. É servida pelo terminal rodoviário de Retiro, de
+            onde partem e chegam linhas de ônibus (autocarros) para todas as
+            regiões do país e para cidades do Chile, Peru, Bolívia, Paraguai,
+            Elaboração das Páginas Reprodução proibida. Art. 184 do Código Penal e
+            Lei 9.610 de 19 de fevereiro de 1998.
+            147
+            Uruguai e Brasil. Conta ainda com ferry-boats que a conectam com as
+            cidades de Colônia do Sacramento e Montevidéu, no vizinho Uruguai.
+            Fica a 1630 quilômetros ao norte de outro importante destino turístico
+            argentino, a cidade de Bariloche. Os shows de tango são um dos
+            principais atrativos da cidade, até porque constituem uma das características
+            mais afamadas da cultura argentina. São muitas as casas
+            de espetáculos que apresentam shows variados de dança e música,
+            muito procurados por quem faz turismo na cidade.</p>
+    </div>
+
+    <div class="caixa">
+        <h2>La Boca</h2>
+        <img src="./imagens/Buenosaires01.jpg" width="100%">
+    </div>
+
+    <div class="caixa">
+        <h2>La Bombonera</h2>
+        <img src="./imagens/Buenosaires02.jpg" width="100%">
+    </div>
+
+    <div class="caixa">
+        <h2>Casa Rosada</h2>
+        <img src="./imagens/Buenosaires03.jpg" width="100%">
+    </div>
+    
+    <div class="footer"><p>
+        Fonte: wikipedia, a enciclopedia livre.</p>
+    </div>
+    
+</body>
+</html>

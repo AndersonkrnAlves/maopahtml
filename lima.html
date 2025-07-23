@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Lima</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#barra").click(function () {
+                $("#painel").slideToggle("slow");
+            });
+        });
+    </script>
+
+    <style>
+        #painel, #barra {
+            padding: 5px;
+            text-align: center;
+            background-color: #EE3b3b;
+            border: solid 0px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        #painel {
+            padding: 20px;
+            display: none;
+            font-size: 14px;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+            color: #8B1A1A;
+        }
+
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: #8B1A1A;
+        }
+
+        a:link {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+            color: red;
+        }
+
+        a:visited {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+            color: gray;
+        }
+
+        a:hover {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+            color: green;
+        }
+        
+        a:active {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+            color: red;
+        }
+
+        .caixa {
+            float: left;
+            margin: 5px;
+            padding: 15px;
+            width: 29.5%;
+            border: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu"><nav> |
+        <a href="index.html">HOME</a> |
+        <a href="https://pt.wikipedia.org" target="_blank">WIKIPEDIA</a> |
+        <a href="https://www.unicesumar.edu.br/" target="_blank">UNICESUMAR</a> |
+    </nav></div>
+
+    <svg width="100%" height="100">
+        <rect width="100%" height="100" style="fill: rgb(100, 0, 0);" />
+        <text fill="#ffffff" font-size="30" font-family="Times New Roman"
+        x="50" y="40">LIMA - PERU</text>
+        <text fill="#ffffff" font-size="20" font-family="Times New Roman"
+        x="50" y="80">Quase 9 Milhões de Habitantes em Seu Entorno</text>
+    </svg>
+
+    <div id="barra"><strong>História da Atual Capital Peruana</strong></div>
+    <div id="painel">Fundada em 1.535 e chamada de a Cidade dos Reis, em
+        território formado por vales de rios.<br />
+        Por ter sido fundada em território indígena, foi sitiada em 1536, mas
+        foram derrotados pelos espanhóis unidos a indígenas aliados.<br />
+        Alvo de piratas, muralhas foram construídas nos anos 1680, e abalos
+        sísmicos também já causaram grandes estragos a cidade.
+    </div>
+    <div style="background-color: #CD5C5c; color: black; padding: 20px;">
+        <h2>Lima - Turismo</h2>
+        <p>Lima é uma metrópole com uma história e geografia peculiar. Além
+            de suas atrações como sítios arqueológicos, praças, parques e uma
+            culinária fantástica, Lima serve como ponto de partida para uma viagem
+            por diversos destinos no Peru.
+            Fazer um city tour é sempre uma boa opção para ter uma visão geral
+            da cidade e conhecer seus principais pontos turísticos. Locais como
+            a Plaza de Armas, a Catedral e o Parque del Amor são imperdíveis.
+            Lima tem quase 8 milhões de habitantes e como toda grande cidade tem
+            muitas opções de restaurantes, bares, boates, shoppings. Um local
+            muito agradável é que junta tudo isso é o Larcomar, um Shopping a
+            céu aberto com vista para o Oceano Pacífico.
+            Esse é um dos atrativos do Peru. Lima é chamada por alguns de capital
+            gastronômica da América. Lá há muitos restaurantes com os mais
+            variados pratos. Os pratos típicos de lá são muito saborosos, coloridos
+            e custam pouco.
+        </p>
+    </div> 
+
+    <div class="caixa">
+        <h2>Paisagem Costeira</h2>
+        <img src="./imagens/Lima01.jpg" width="100%"> 
+    </div>
+
+    <div class="caixa">
+        <h2>Catedral Principal</h2>
+        <img src="./imagens/Lima02.jpg" width="100%">
+    </div>
+
+    <div class="caixa">
+        <h2>Visão Noturna</h2>
+        <img src="./imagens/Lima03.jpg" width="100%">
+    </div>
+
+    <div id="footer"><p>
+        Fonte: http//www.melhoresdestinos.com.br/lima-peru.html.</p>
+</div>
+</body>
+</html>

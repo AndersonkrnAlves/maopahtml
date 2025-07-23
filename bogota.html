@@ -3,9 +3,10 @@
 <head>
     <meta charset='utf-8'>
     <title>Bogotá</title>
-    <script src="jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
     <script>
-        $(document).click(function (){
+        $(document).ready(function (){
             $("#barra").click(function(){
                 $("#painel").slideToggle("slow");
             });
@@ -19,6 +20,7 @@
         background-color: #ffa500;
         border: solid 0px;
         font-size: 20px;
+        cursor: pointer;
     }
 
 #painel {
@@ -134,10 +136,11 @@ a:active {
         <h2>Vista Aérea de Bogota</h2>
         <img src="./imagens/bogota03.jpg" width="100%"></p>
     </div>
-
+    
     <div id="footer"><p>
-        Fonte: http://www.melhoresdestinos.com.br/lima-peru.html.
+        Fonte: http://www.melhoresdestinos.com.br/lima-peru.html.</p>
     </div>
 
+    
 </body>
 </html>

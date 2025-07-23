@@ -3,10 +3,10 @@
 <head>
     <meta charset='utf-8'>
     <title>Brasília</title>
-    <script src="jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
     <script>
-        $(document).click(function (){
+        $(document).ready(function (){
             $("#barra").click(function(){
                 $("#painel").slideToggle("slow");
             });
@@ -19,6 +19,8 @@
         background-color: #4169E1;
         border: solid;
         font-size: 20px;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
     }
     #painel {
         padding: 20px;
@@ -47,9 +49,97 @@
         font-size: 14px;
         color: gray;
     }
+    a:hover {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        color: yellow;
+    }
+    a:active {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        color: green;
+    }
+    .caixa {
+        float: left;
+        margin: 5px;
+        padding: 15px;
+        width: 29.5%;
+        border: 0px;
+    }
 </style>
 </head>
 <body>
+    <div class="menu"><nav> |
+        <a href="index.html">HOME</a> |
+        <a href="https://pt.wikipedia.org" target="_blank">WIKIPEDIA</a> |
+        <a href="https://www.unicesumar.edu.br/" target="_blank">UNICESUMAR</a>
+    </nav></div>
+    <svg width="100%" height="100">
+        <rect width="100%" height="100" style="fill: rgb(0, 100, 0);" />
+        <text fill="#FFFF00" font-size="30" font-family="Times News Roman" x="50" y="40">BRASÍLIA - BRASIL</text>
+        <text fill="#ffff00" font-size="20" font-family="Times News Roman" 
+            x="50" y="80">Cerca de 4 Milhões de Habitantes em Seu Entorno</text>
+    </svg>
+    <div id="barra"><strong>História da Atual Capital Brasileira</strong></div>
+    <div id="painel">
+                Desde de 1.891, a primeira constituição republicana
+            já indicava que a capital federal deveria se transferir do Rio de
+            Janeiro para o interior do país. <br />
+            Em 1.922, no ano do Centenário da Independência do Brasil, após projeto
+            enviado a Câmara, foi assentada a pedra fundamental para o início
+            da construção da cidade. <br />
+            De 1.955 a 1.960, ocorreu toda a construção da cidade, sendo então
+            inaugurada na data de 21 de abril de 1.960.
+    </div>
+    <div style="background-color: #FFD700; color: black; padding: 20px;">
+            <h2>Brasília</h2>
+            <p>Brasília é classificada como Patrimônio Cultural da Humanidade pela
+                Unesco, uma agência da ONU e recebe cerca de um milhão de visitantes
+                anualmente. Entre as suas atrações mais visitadas estão os diversos
+                 projetos arquitetônicos de Oscar Niemeyer.
+                O turismo cívico é valorizado por estarem localizados na capital
+                os órgãos governamentais da administração direta e os representantes 
+                dos três poderes republicanos. Os principais monumentos da
+                cidade encontram-se no Eixo Monumental: Catedral Militar Rainha da
+                Paz, Praça do Cruzeiro (Memorial da Primeira Missa), Memorial JK,
+                Memorial dos Povos Indígenas, Complexo Poliesportivo Ayrton Senna:
+                Ginásio de Esportes Nilson Nelson e Estádio Nacional de Brasília
+                Mané Garrincha; Centro de Convenções Ulysses Guimarães (CCUG),
+                Torre de TV, Teatro Nacional Cláudio Santoro, Complexo Cultural da
+                República João Herculino: Biblioteca Nacional de Brasília Leonel de
+                Moura Brizola (BNB) e Museu Nacional Honestino Guimarães; Catedral
+                Metropolitana de Brasília Nossa Senhora Aparecida, Esplanada dos
+                Ministérios, Palácio da Justiça, Palácio Itamaraty, Praça dos Três
+                Poderes: Congresso Nacional, sede do Poder Legislativo brasileiro,
+                Palácio do Planalto, sede do Poder Executivo brasileiro, Supremo
+                Tribunal Federal (STF), sede do Poder Judiciário brasileiro e Panteão
+                da Pátria e da Liberdade Tancredo Neves; além de outros. Entre
+                outros monumentos estão o Palácio da Alvorada, residência oficial da
+                Presidência da República (no Setor Palácio Presidencial - SPP), o
+                Catetinho (ao longo da EPIA Sul), o Santuário Dom Bosco (na Via W3
+                Sul), o Museu Vivo da Memória Candanga (no Núcleo Bandeirante) e a
+                Ponte Juscelino Kubitschek, mais conhecida como Ponte JK ou “ter-
+                ceira ponte”, premiada internacionalmente (no Lago Paranoá, entre
+                o Setor de Clubes Esportivos Sul (SCES), na Asa Sul, e o Setor de
+                Habitações Individuais Sul (SHIS), no Lago Sul).</p>
+    </div>
+    <div class="caixa">
+        <h2>Congresso Nacional</h2>
+        <img src="./imagens/Brasilia01.jpg" width="100%">
+    </div>
     
+    <div class="caixa">
+        <h2>Cadetral de Brasília</h2>
+        <img src="./imagens/Brasilia02.jpg" width="100%">
+    </div>
+
+    <div class="caixa">
+        <h2>Estádio Mané Garrincha</h2>
+        <img src="./imagens/Brasilia03.jpg" width="100%">
+    </div> 
+    
+    <div id="footer"><p>
+        Fonte: wikipedia, a enciclopedia livre.</p>
+</div>
 </body>
 </html>
